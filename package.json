@@ -4,9 +4,12 @@
   "private": true,
   "dependencies": {
     "flux": "^3.1.3",
+    "material-ui": "^0.20.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-router": "^4.2.0"
+    "react-router": "^4.2.0",
+    "uikit": "^3.0.0-beta.40",
+    "uikit-react": "^2.3.10"
   },
   "devDependencies": {
     "react-scripts": "1.1.1"

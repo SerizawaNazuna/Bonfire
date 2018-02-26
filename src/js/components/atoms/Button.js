@@ -1,8 +1,9 @@
 import React from 'react';
+import FlatButton from 'material-ui/FlatButton';
 
 const Button = (props) =>{
     return(
-        <button style={props.style} onClick={props.onClick}>{props.children}</button>
+        <FlatButton onClick={props.onClick}>{props.children}</FlatButton>
     );
 }
 
