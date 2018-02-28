@@ -5,7 +5,7 @@ import TextInput from '../atoms/TextInput';
 const TextInputField = (props) =>{
     return(
         <div>
-            <Label>{props.label}<TextInput defaultValue={props.textValue} onBlur={props.onBlur} /></Label>
+            <TextInput {...props} />
         </div>
     );
 }
