@@ -1,7 +1,7 @@
 import React from 'react';
-import TextInput from '../atoms/TextInput';
+import ExpandableCard from '../molecules/Card';
 
-const InputBonfire = (props) =>{
+const ShowBonfires = (props) =>{
     return(
         <div>
             <h2>{props.headValue}</h2>
@@ -12,4 +12,4 @@ const InputBonfire = (props) =>{
     );
 }
 
-export default InputBonfire;
+export default ShowBonfires;
