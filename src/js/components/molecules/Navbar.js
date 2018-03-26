@@ -4,10 +4,10 @@ import Span from '../atoms/Span';
 const Navbar = (props) =>{
     return(
         <div className="uk-navbar">
-            <a href="#"><Span>頑張りたい</Span></a>
-            <a href="#"><Span>頑張れない</Span></a>
-            <a href="#"><Span>つらい</Span></a>
-            <a href="#"><Span>ときもある</Span></a>
+            <a href="#"><Span>fire</Span></a>
+            <a href="#"><Span>exceed</Span></a>
+            <a href="#"><Span>delay</Span></a>
+            <a href="#"><Span>lovemachine</Span></a>
         </div>
     );
 }
