@@ -1,13 +1,12 @@
 import React from 'react';
-import Span from '../atoms/Span';
 
 const Navbar = (props) =>{
     return(
         <div className="uk-navbar">
-            <a href="#"><Span>fire</Span></a>
-            <a href="#"><Span>exceed</Span></a>
-            <a href="#"><Span>delay</Span></a>
-            <a href="#"><Span>lovemachine</Span></a>
+            <a href="#"><p>fire</p></a>
+            <a href="#"><p>exceed</p></a>
+            <a href="#"><p>delay</p></a>
+            <a href="#"><p>lovemachine</p></a>
         </div>
     );
 }
