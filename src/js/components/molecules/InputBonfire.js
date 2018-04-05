@@ -1,13 +1,17 @@
 import React from 'react';
 import TextInput from '../atoms/TextInput';
 import CategorySelect from '../molecules/CategorySelecter';
+import Button from '../atoms/Button';
 
 const InputBonfire = (props) =>{
     return(
         <div>
-            <h2>Light Your Fire of Today.</h2>
             <CategorySelect {...props} />
-            <TextInput label={props.label} {...props} />
+            <TextInput label="内容" {...props} />
+            <div>
+                <Button onClick={props.onClickClose} >閉じる</Button>
+                <Button onClick={props.onClickSubmit} >送信</Button>
+            </div>
         </div>
     );
 }

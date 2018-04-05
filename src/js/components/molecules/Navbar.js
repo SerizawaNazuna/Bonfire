@@ -1,12 +1,11 @@
 import React from 'react';
+import AppBar from 'material-ui/AppBar';
+import {red50} from 'material-ui/styles/colors';
 
 const Navbar = (props) =>{
     return(
-        <div className="uk-navbar">
-            <a href="#"><p>fire</p></a>
-            <a href="#"><p>exceed</p></a>
-            <a href="#"><p>delay</p></a>
-            <a href="#"><p>lovemachine</p></a>
+        <div>
+            <AppBar title="aaa" style={{"primary2Color" : red50}} />
         </div>
     );
 }
